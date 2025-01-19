@@ -45,6 +45,40 @@ print("The euclidean ditance is"e_distance)
 #comaprarison of the two previous calculated slopes
 print("comparison of the 2 slopes", m == m2)
 
+# Length comparison and falsy statement
+python_len = len("python")
+dragon_len = len("dragon")
+print("Is length of 'python' equal to 'dragon'?", python_len == dragon_len)
+
+# Check 'on' in both 'python' and 'dragon'
+print("'on' in both 'python' and 'dragon':", "on" in "python" and "on" in "dragon")
+
+# Check 'jargon' in sentence
+sentence = "I hope this course is not full of jargon."
+print("'jargon' in sentence:", "jargon" in sentence)
+
+# Convert length of 'python' to float and string
+python_len_float = float(python_len)
+python_len_str = str(python_len)
+print("Float length:", python_len_float, "String length:", python_len_str)
+
+
+
+# Calculate pay
+hours = float(input("\nEnter hours worked: "))
+rate = float(input("Enter rate per hour: "))
+weekly_pay = hours * rate
+print(f"Your weekly earning is {weekly_pay}")
+
+
+# Display table
+print("\n1 1 1 1 1")
+print("2 1 2 4 8")
+print("3 1 3 9 27")
+print("4 1 4 16 64")
+print("5 1 5 25 125")
+
+
 
 
 
