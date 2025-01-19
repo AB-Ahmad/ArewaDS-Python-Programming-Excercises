@@ -13,4 +13,4 @@ is_light_on = True
 
 
 #A multiply variable declare in a single line
-Name, state_origin,my_age = "Ahmad","Kano",24
+Namee, state_origin,my_age = "Ahmad","Kano",24
