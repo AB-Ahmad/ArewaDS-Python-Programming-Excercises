@@ -33,7 +33,29 @@ print(m_string.split(","))
 
 #index chck
 print(my_string.index(10))
+#indexing
+print(my_string[0])
+print(my_string[-1])
+print(my_string[10])
 # acronymn
+print(''.join([word[0] for word in "Python For Everyone".split()]))
+print(''.join([word[0] for word in "Coding For All".split()]))
+
+#
+print(company.index("C"))
+print(company.index("F"))
+
+print("Coding For All People".rfind('l'))
+
+sentence = 'You cannot end a sentence with because because because is a conjunction'
+print(sentence.finf("because"))
+
+
+
+
+
+
+
 
 
 
