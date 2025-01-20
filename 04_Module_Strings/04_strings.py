@@ -51,13 +51,54 @@ sentence = 'You cannot end a sentence with because because because is a conjunct
 print(sentence.find("because"))
 
 
-sentence1 = "You cannot end a sentence with because because because is a conjunction"
+sentence = "You cannot end a sentence with because because because is a conjunction"
 print(sentence.find('because'))
 print(sentence.rindex('because'))
+
+# starts or ends with of a String 
+print(company.startswith('Coding'))
+print(company.endswith('coding'))
+
+print(sentence[sentence.find('because'):sentence.rindex('because'))
+print(sentence.replace('because because because', ''))
 
 # String starts or ends with
 print(company.startswith('Coding'))
 print(company.endswith('coding'))
+
+# Remove trailing spaces
+print('   Coding For All      '.strip())
+
+# Check valid identifiers
+print('30DaysOfPython'.isidentifier())
+print('thirty_days_of_python'.isidentifier())
+
+# Join libraries with hash and spac
+libraries = ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+print(' # '.join(libraries))
+
+# New line escape sequence
+print("I am enjoying this challenge.\nI just wonder what is next.")
+
+# Tab escape sequence
+print("Name\tAge\tCountry\tCity")
+print("Asabeneh\t250\tFinland\tHelsinki")
+
+# String formatting
+radius = 10
+area = 3.14 * radius ** 2
+
+print("The area of a circle with radius:",radius, "is", int(area),"meters square.")
+
+# Math operations with string formatting
+x, y = 8, 6
+print(f"{x} + {y} = {x + y}")
+print(f"{x} - {y} = {x - y}")
+print(f"{x} * {y} = {x * y}")
+print(f"{x} / {y} = {x / y:.2f}")# to 2 decimal places
+print(f"{x} % {y} = {x % y}")
+print(f"{x} // {y} = {x // y}")
+print(f"{x} ** {y} = {x ** y}")
 
 
 
