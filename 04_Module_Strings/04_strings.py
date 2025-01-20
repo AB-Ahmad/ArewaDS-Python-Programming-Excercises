@@ -22,3 +22,19 @@ print(comapny[0:6))
 print("is coding contain in  company varibale: ", "coding" in company)
 #using find fuction
 print(company.find('Coding'))
+print(company.replace("coding", "python"))
+
+print(company.replace("ALL",""))
+my_string = "coding for all"
+print(my_string.split(" "))
+
+m_string = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon"
+print(m_string.split(","))
+
+#index chck
+print(my_string.index(10))
+# acronymn
+
+
+
+
