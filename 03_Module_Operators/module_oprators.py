@@ -45,6 +45,15 @@ print("The euclidean ditance is"e_distance)
 #comaprarison of the two previous calculated slopes
 print("comparison of the 2 slopes", m == m2)
 
+
+#y= x**2 + 6x +9
+#when x = -3 y = 0
+x = -3
+y = x**2 + 6(x) + 9 
+print(y)
+
+
+
 # Length comparison and falsy statement
 python_len = len("python")
 dragon_len = len("dragon")
@@ -57,10 +66,29 @@ print("'on' in both 'python' and 'dragon':", "on" in "python" and "on" in "drago
 sentence = "I hope this course is not full of jargon."
 print("'jargon' in sentence:", "jargon" in sentence)
 
+print("Thre is no 'on' in both dragon and python:","on" in "dragon" and  in "dragon")
+
 # Convert length of 'python' to float and string
 python_len_float = float(python_len)
 python_len_str = str(python_len)
 print("Float length:", python_len_float, "String length:", python_len_str)
+
+# Check if a number is even
+num = int(input("nEnter a number to check if it's even: "))
+is_even = num % 2 == 0
+print(is_even)
+
+
+#gloor divisiom
+print("\nIs floor division of 7 by 3 equal to int(2.7)?", 7 // 3 == int(2.7))
+#type check
+print(type("10") == type(10))
+print(type(int(9.8) == type(10))
+
+# person life calculations(in seconds)
+ years = int(input("\nEnter number of years you have lived: "))
+seconds_lived = years * 365 * 24 * 60 * 60 # conversions of year to seconds
+print(f"You have lived for {seconds_lived} seconds.")
 
 
 
