@@ -48,7 +48,17 @@ print(company.index("F"))
 print("Coding For All People".rfind('l'))
 
 sentence = 'You cannot end a sentence with because because because is a conjunction'
-print(sentence.finf("because"))
+print(sentence.find("because"))
+
+
+sentence1 = "You cannot end a sentence with because because because is a conjunction"
+print(sentence.find('because'))
+print(sentence.rindex('because'))
+
+# String starts or ends with
+print(company.startswith('Coding'))
+print(company.endswith('coding'))
+
 
 
 
