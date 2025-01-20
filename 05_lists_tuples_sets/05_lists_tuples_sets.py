@@ -57,6 +57,32 @@ del A
 del B
 del it_companies
 
+#level3 
+age = [22, 19, 24, 25, 26, 24, 25, 24]
+age_sets = set(age)
+age_len = len(age)
+age_set_len = len(age_sets)
+if age_len > age_set_len:
+  print("sets is bigger than age")
+  else;
+  prinnt("age is bigger than the sets")
+
+# #differnce btw strings,list and sets
+# String: Immutable sequence of characters.
+# List: Mutable, ordered collection of items, allows duplicates.
+# Tuple: Immutable, ordered collection of items, allows duplicates.
+# Set: Unordered collection of unique items, does not allow duplicates.
+
+
+
+
+#find number of unique word
+sentence = "I am a teacher and I love to inspire and teach people"
+words = sentence.split()
+unique_words = set(words)
+print("Unique words:", unique_words)
+print("Number of unique words:", len(unique_words))
+
 
 
 
